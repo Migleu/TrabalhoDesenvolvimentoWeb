@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap');
+/* Fredoka */
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* Playfair Display */
+@import url('https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+* {
+    color: #fff;
+    font-family: "Arvo";
+}
+
+body {
+    background-image: url("./1356787.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* NavBar */
+.navbar {
+    padding: 0 50px;
+    height: 100px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    text-transform: uppercase;
+    list-style-type: none;
+    margin-left: 30px;
+    transition: all .5s;
+}
+.navbar li:hover {
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+.navbar h1 {
+    margin-left: 50px;
+}
+
+.navbar h2 {
+    padding: 5px 20px;
+    border: solid .5px;
+    margin-right: 50px;
+    transition: all .8s;
+}
+.navbar h2:hover {
+    border-radius: 3px;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+    font-weight: 500;
+}
+
+
+/* main */
+main {
+    height: 100vh;
+}
+
+.game {
+    display: flex;
+}
+.sobre {
+    margin-left: 40px;
+}
+.sobre p {
+    text-transform: uppercase;
+}
+.sobre button {
+    padding: 5px 10px;
+    background-color: #000;
+}
+.sobre button:hover {
+    cursor: pointer;
+}
